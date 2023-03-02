@@ -1,0 +1,16 @@
+PODS:
+  - YesidFaceEnrollment (0.1.0)
+
+DEPENDENCIES:
+  - YesidFaceEnrollment (from `../`)
+
+EXTERNAL SOURCES:
+  YesidFaceEnrollment:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YesidFaceEnrollment: 8249f57852ab6d540ee2a059469e262498c90c27
+
+PODFILE CHECKSUM: 1c26f62bb9ad29da9cde1d25fb40e99f2cb29fbf
+
+COCOAPODS: 1.11.3

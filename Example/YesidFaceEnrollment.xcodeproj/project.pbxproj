@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		01C3033B7E0619EEE8305210 /* Pods-YesidFaceEnrollment_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesidFaceEnrollment_Example.release.xcconfig"; path = "Target Support Files/Pods-YesidFaceEnrollment_Example/Pods-YesidFaceEnrollment_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1D2FCC6B4B8A02417FBFDFE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4C9620DEE3AB1E84F26B1936 /* YesidFaceEnrollment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YesidFaceEnrollment.podspec; path = ../YesidFaceEnrollment.podspec; sourceTree = "<group>"; };
+		1D2FCC6B4B8A02417FBFDFE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4C9620DEE3AB1E84F26B1936 /* YesidFaceEnrollment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YesidFaceEnrollment.podspec; path = ../YesidFaceEnrollment.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* YesidFaceEnrollment_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YesidFaceEnrollment_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		D10458D1C59A9282D4995085 /* Pods-YesidFaceEnrollment_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesidFaceEnrollment_Tests.release.xcconfig"; path = "Target Support Files/Pods-YesidFaceEnrollment_Tests/Pods-YesidFaceEnrollment_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DFDD3E6B59DE5E14BE5A2F49 /* Pods_YesidFaceEnrollment_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YesidFaceEnrollment_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BF85785E241539613E4A55 /* Pods-YesidFaceEnrollment_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YesidFaceEnrollment_Example.debug.xcconfig"; path = "Target Support Files/Pods-YesidFaceEnrollment_Example/Pods-YesidFaceEnrollment_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F5581D7B2B5C9A8D9C3CCD31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F5581D7B2B5C9A8D9C3CCD31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				96FAC5FA32D1E99BD50EA1B1 /* Pods-YesidFaceEnrollment_Tests.debug.xcconfig */,
 				D10458D1C59A9282D4995085 /* Pods-YesidFaceEnrollment_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4Z472Q5RVW;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4Z472Q5RVW;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,7 +480,9 @@
 			baseConfigurationReference = E8BF85785E241539613E4A55 /* Pods-YesidFaceEnrollment_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Z472Q5RVW;
 				INFOPLIST_FILE = YesidFaceEnrollment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +497,9 @@
 			baseConfigurationReference = 01C3033B7E0619EEE8305210 /* Pods-YesidFaceEnrollment_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Z472Q5RVW;
 				INFOPLIST_FILE = YesidFaceEnrollment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 96FAC5FA32D1E99BD50EA1B1 /* Pods-YesidFaceEnrollment_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4Z472Q5RVW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -516,6 +523,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,11 +537,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D10458D1C59A9282D4995085 /* Pods-YesidFaceEnrollment_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4Z472Q5RVW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
