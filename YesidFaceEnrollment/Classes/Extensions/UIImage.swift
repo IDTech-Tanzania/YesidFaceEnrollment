@@ -54,18 +54,21 @@ extension UIImage {
             break
         case UIImage.Orientation.up, UIImage.Orientation.upMirrored:
             break
-       
+        }
 
         switch imageOrientation {
-        case UIImage.Orientation.upMirrored, UIImage.Orientation.downMirrored:
-            transform.translatedBy(x: size.width, y: 0)
-            transform.scaledBy(x: -1, y: 1)
-            break
-        case UIImage.Orientation.leftMirrored, UIImage.Orientation.rightMirrored:
-            transform.translatedBy(x: size.height, y: 0)
-            transform.scaledBy(x: -1, y: 1)
         case UIImage.Orientation.up, UIImage.Orientation.down, UIImage.Orientation.left, UIImage.Orientation.right:
             break
+        case .upMirrored:
+            <#code#>
+        case .downMirrored:
+            <#code#>
+        case .leftMirrored:
+            <#code#>
+        case .rightMirrored:
+            <#code#>
+        @unknown default:
+            fatalError("Unknow image orientation")
         }
 
         let ctx: CGContext = CGContext(data: nil,
