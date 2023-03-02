@@ -54,19 +54,15 @@ extension UIImage {
             break
         case UIImage.Orientation.up, UIImage.Orientation.upMirrored:
             break
+        @unknown default:
+            transform = transform.translatedBy(x: size.width, y: size.height)
+            transform = transform.rotated(by: CGFloat.pi)
+            break
         }
 
         switch imageOrientation {
         case UIImage.Orientation.up, UIImage.Orientation.down, UIImage.Orientation.left, UIImage.Orientation.right:
             break
-        case .upMirrored:
-            <#code#>
-        case .downMirrored:
-            <#code#>
-        case .leftMirrored:
-            <#code#>
-        case .rightMirrored:
-            <#code#>
         @unknown default:
             fatalError("Unknow image orientation")
         }
