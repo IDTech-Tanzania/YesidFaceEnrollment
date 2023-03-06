@@ -1,6 +1,0 @@
-framework module YesidFaceEnrollment {
-  umbrella header "YesidFaceEnrollment-umbrella.h"
-
-  export *
-  module * { export * }
-}
