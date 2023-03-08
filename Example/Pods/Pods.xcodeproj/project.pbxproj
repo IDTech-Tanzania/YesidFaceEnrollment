@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E67CAD8E0ECE03AC48843A0C9C8CFF /* Pods-YesidFaceEnrollment_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42792ED49242BDB42291D497C0C0E1D5 /* Pods-YesidFaceEnrollment_Example-dummy.m */; };
+		12D39CF4590D83EF89F00DD81FA2A75C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9BAE09FC63222117735E00FE36AC00 /* Color.swift */; };
+		16813563D396D95E6D5F91E2713E1788 /* FaceEnrollment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BA3F860A8EF1ED8D5C47AD46AB130D /* FaceEnrollment.swift */; };
+		25D074CAC27385537881F183F9C246FB /* FaceEnrollShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29BDEF85D066928691CA4707F648146 /* FaceEnrollShape.swift */; };
+		2F7B61ACB4921112469C818F6C5A2AE7 /* FaceMatchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67C4B07697A2CDC0C7B866F0D4B1561 /* FaceMatchResponse.swift */; };
+		34BD45BE52BE9CBFE80888203431049B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5B33ED4FBB927976C27264CE8BC3E979 /* FaceEnrollmentCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4D045A394DEA2003EB167DEA22FF89 /* FaceEnrollmentCameraView.swift */; };
+		5CED896484FA50DFD6794162FC0629D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		663E46AC53AB2775534B60C6D7B34067 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6134F1B59201A9520DC1B4D8A698D9AF /* UIImage.swift */; };
+		90CAAE81CB64626826546C4D2C7BC70A /* AVCaptureVideoOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DE8D7AB90D230C3FFA4EA635F40F81 /* AVCaptureVideoOrientation.swift */; };
+		9208BC03264A8E5443E00A0577B8CB34 /* FaceEnrollmentCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27D09C0140DB453CF34094352213C60 /* FaceEnrollmentCamera.swift */; };
+		A01D24B4A0C1EE8593BC8B092D692EC9 /* Pods-YesidFaceEnrollment_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F52DAB70EC08524B1DE6B1C6AEE12B18 /* Pods-YesidFaceEnrollment_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2F2BE61997787F6939567D4FDCEF852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A82995EF57CA9B6E5478748F7FE9EC0A /* YesidFaceEnrollment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08104E2B940A5FB334E4C6353B147EF8 /* YesidFaceEnrollment.swift */; };
+		E8D980F7543DFD950B69A162312FDDFE /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7B7DE239D972E55B8FB8725E6E8C85 /* CameraView.swift */; };
+		EAF2AC24031147FB5AD211018404AD17 /* Pods-YesidFaceEnrollment_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF234A0B80C163606C85B35C842F984 /* Pods-YesidFaceEnrollment_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0B700A807A8FEF5E06EBB1D6A8BD8A1 /* YesidFaceEnrollment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B109110DDE8171B5C3B501A0AE044EB5 /* YesidFaceEnrollment-dummy.m */; };
+		F56798310A6AA9070A89BF8551313270 /* Pods-YesidFaceEnrollment_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CD16CAAF5A9BDAD8CA868469BCA36 /* Pods-YesidFaceEnrollment_Tests-dummy.m */; };
+		F85B17F8FFFB26BADB1CC0DF38887117 /* YesidFaceEnrollment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE2455B7713ADFB7CBE33B72323F1DE /* YesidFaceEnrollment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA0126E2695BB4EF1535E0542DC1CF08 /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224EFC200A99F6A1D839808806B1598D /* CameraError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86EE7CE630B1C77C74E01F91029ADB6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D22AC9267FF82E9424FB37F97FEB77C2;
+			remoteInfo = YesidFaceEnrollment;
+		};
+		A1CB3405194403654E1683AAFE167BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24DC5574EF19285388AAF5E67253E329;
+			remoteInfo = "Pods-YesidFaceEnrollment_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08104E2B940A5FB334E4C6353B147EF8 /* YesidFaceEnrollment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YesidFaceEnrollment.swift; sourceTree = "<group>"; };
+		14EE59E2677DB94AC7CACB903C3A64AB /* Pods-YesidFaceEnrollment_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YesidFaceEnrollment_Tests"; path = Pods_YesidFaceEnrollment_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		224EFC200A99F6A1D839808806B1598D /* CameraError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
+		2864C667EB461718EF076A6C082820AE /* YesidFaceEnrollment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YesidFaceEnrollment.modulemap; sourceTree = "<group>"; };
+		2FDAF918252AB2AF69BC95338F6548D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		347828D606C2FA50378B3CEE7AF58FA9 /* YesidFaceEnrollment.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YesidFaceEnrollment.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3625DD4EA53450C5367FA43ED1172023 /* Pods-YesidFaceEnrollment_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YesidFaceEnrollment_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B3CD16CAAF5A9BDAD8CA868469BCA36 /* Pods-YesidFaceEnrollment_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YesidFaceEnrollment_Tests-dummy.m"; sourceTree = "<group>"; };
+		42792ED49242BDB42291D497C0C0E1D5 /* Pods-YesidFaceEnrollment_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YesidFaceEnrollment_Example-dummy.m"; sourceTree = "<group>"; };
+		42F3AD2A556EC9AE6DA84FC0041A9BD8 /* YesidFaceEnrollment-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YesidFaceEnrollment-Info.plist"; sourceTree = "<group>"; };
+		4BBE304C15C71105A2BA902519966FC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5899E0EAD45210E57D9DAF3B52012400 /* Pods-YesidFaceEnrollment_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesidFaceEnrollment_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D5FEE203B5F68810E18A8D663C0827F /* Pods-YesidFaceEnrollment_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YesidFaceEnrollment_Tests-Info.plist"; sourceTree = "<group>"; };
+		6134F1B59201A9520DC1B4D8A698D9AF /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		6E9BAE09FC63222117735E00FE36AC00 /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7D6931DFC883013BA976D71ED28A9C2D /* Pods-YesidFaceEnrollment_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesidFaceEnrollment_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7DE2455B7713ADFB7CBE33B72323F1DE /* YesidFaceEnrollment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YesidFaceEnrollment-umbrella.h"; sourceTree = "<group>"; };
+		8C06A3200A8642CE4D66C7A69D688CFC /* Pods-YesidFaceEnrollment_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesidFaceEnrollment_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ECE19EE546138B6D9AE1901B8D9F21E /* Pods-YesidFaceEnrollment_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YesidFaceEnrollment_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A1F9D0D9BCCFAAEB666525DB6A85F564 /* YesidFaceEnrollment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YesidFaceEnrollment.release.xcconfig; sourceTree = "<group>"; };
+		AC7B7DE239D972E55B8FB8725E6E8C85 /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		ADF234A0B80C163606C85B35C842F984 /* Pods-YesidFaceEnrollment_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YesidFaceEnrollment_Example-umbrella.h"; sourceTree = "<group>"; };
+		B109110DDE8171B5C3B501A0AE044EB5 /* YesidFaceEnrollment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YesidFaceEnrollment-dummy.m"; sourceTree = "<group>"; };
+		B1C7C94F0200163EBAB2BBFB5DC9EAE4 /* YesidFaceEnrollment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YesidFaceEnrollment.debug.xcconfig; sourceTree = "<group>"; };
+		B7DBE52EE017DA7E4879397C4D1B4C6A /* Pods-YesidFaceEnrollment_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YesidFaceEnrollment_Example-Info.plist"; sourceTree = "<group>"; };
+		B92948D58DD01F4C01E99E7AF2BEDFEB /* Pods-YesidFaceEnrollment_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YesidFaceEnrollment_Tests.modulemap"; sourceTree = "<group>"; };
+		C0DE8D7AB90D230C3FFA4EA635F40F81 /* AVCaptureVideoOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AVCaptureVideoOrientation.swift; sourceTree = "<group>"; };
+		C3BA3F860A8EF1ED8D5C47AD46AB130D /* FaceEnrollment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FaceEnrollment.swift; sourceTree = "<group>"; };
+		C5BF8C6C85B38338502ED53D2CC1C5CB /* Pods-YesidFaceEnrollment_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YesidFaceEnrollment_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C61AEB5200E263D4D7C709D2CE912B1A /* Pods-YesidFaceEnrollment_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YesidFaceEnrollment_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C92F35972BD69C2CD8A25BC651639EBA /* YesidFaceEnrollment */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YesidFaceEnrollment; path = YesidFaceEnrollment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09AB3469A8E6E172BE9EBBA98E14B87 /* Pods-YesidFaceEnrollment_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YesidFaceEnrollment_Example.modulemap"; sourceTree = "<group>"; };
+		D29BDEF85D066928691CA4707F648146 /* FaceEnrollShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FaceEnrollShape.swift; sourceTree = "<group>"; };
+		D67C4B07697A2CDC0C7B866F0D4B1561 /* FaceMatchResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FaceMatchResponse.swift; sourceTree = "<group>"; };
+		DDB472DF5EC0816D7945692A76F95DA7 /* Pods-YesidFaceEnrollment_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YesidFaceEnrollment_Example"; path = Pods_YesidFaceEnrollment_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA69B67B8E114E56FCA2E8550EF6BAB /* Pods-YesidFaceEnrollment_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YesidFaceEnrollment_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F27D09C0140DB453CF34094352213C60 /* FaceEnrollmentCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FaceEnrollmentCamera.swift; sourceTree = "<group>"; };
+		F52DAB70EC08524B1DE6B1C6AEE12B18 /* Pods-YesidFaceEnrollment_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YesidFaceEnrollment_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FAEC138DAE58EF72B7AFB580749034E1 /* YesidFaceEnrollment-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YesidFaceEnrollment-prefix.pch"; sourceTree = "<group>"; };
+		FB4D045A394DEA2003EB167DEA22FF89 /* FaceEnrollmentCameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FaceEnrollmentCameraView.swift; sourceTree = "<group>"; };
+		FF461639BF37436D552B2D74DF735699 /* Pods-YesidFaceEnrollment_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YesidFaceEnrollment_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17613A855D783B55B6FCA0876A1C84FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2F2BE61997787F6939567D4FDCEF852 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692FF0C7ED4E0B47EBABE50D0999F396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CED896484FA50DFD6794162FC0629D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97A3B111BB3E1E1CE6F6C7E989DD8865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BD45BE52BE9CBFE80888203431049B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D1CF089D9CE1FAAE397DE27CE88416 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2FDAF918252AB2AF69BC95338F6548D3 /* LICENSE */,
+				4BBE304C15C71105A2BA902519966FC9 /* README.md */,
+				347828D606C2FA50378B3CEE7AF58FA9 /* YesidFaceEnrollment.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		096C35606D3A1C5355A8EDADBCEECEE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB472DF5EC0816D7945692A76F95DA7 /* Pods-YesidFaceEnrollment_Example */,
+				14EE59E2677DB94AC7CACB903C3A64AB /* Pods-YesidFaceEnrollment_Tests */,
+				C92F35972BD69C2CD8A25BC651639EBA /* YesidFaceEnrollment */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11016D687C51E86469B66EFC47845E1B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				817DF5ECF9905C6193CE643B10BC777A /* Pods-YesidFaceEnrollment_Example */,
+				CB91671EC3229C99355A1EFF8E6FBA12 /* Pods-YesidFaceEnrollment_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1D8ED75EF15A2CD6D2111347D646353B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC7B7DE239D972E55B8FB8725E6E8C85 /* CameraView.swift */,
+				FB4D045A394DEA2003EB167DEA22FF89 /* FaceEnrollmentCameraView.swift */,
+				08104E2B940A5FB334E4C6353B147EF8 /* YesidFaceEnrollment.swift */,
+			);
+			name = Views;
+			path = YesidFaceEnrollment/Classes/Views;
+			sourceTree = "<group>";
+		};
+		4AF8B1D13A4CAB3D2B899F6372C3B1BD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C3BA3F860A8EF1ED8D5C47AD46AB130D /* FaceEnrollment.swift */,
+				F27D09C0140DB453CF34094352213C60 /* FaceEnrollmentCamera.swift */,
+				D67C4B07697A2CDC0C7B866F0D4B1561 /* FaceMatchResponse.swift */,
+			);
+			name = ViewModels;
+			path = YesidFaceEnrollment/Classes/ViewModels;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FAA3C37E6361C71E616DB199F509122 /* YesidFaceEnrollment */ = {
+			isa = PBXGroup;
+			children = (
+				A4419E0DE4F3304580ED6429B05C3629 /* Extensions */,
+				05D1CF089D9CE1FAAE397DE27CE88416 /* Pod */,
+				EBEFAED8896C1571528E4977BD0FB160 /* Support Files */,
+				4AF8B1D13A4CAB3D2B899F6372C3B1BD /* ViewModels */,
+				1D8ED75EF15A2CD6D2111347D646353B /* Views */,
+			);
+			name = YesidFaceEnrollment;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		817DF5ECF9905C6193CE643B10BC777A /* Pods-YesidFaceEnrollment_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D09AB3469A8E6E172BE9EBBA98E14B87 /* Pods-YesidFaceEnrollment_Example.modulemap */,
+				9ECE19EE546138B6D9AE1901B8D9F21E /* Pods-YesidFaceEnrollment_Example-acknowledgements.markdown */,
+				3625DD4EA53450C5367FA43ED1172023 /* Pods-YesidFaceEnrollment_Example-acknowledgements.plist */,
+				42792ED49242BDB42291D497C0C0E1D5 /* Pods-YesidFaceEnrollment_Example-dummy.m */,
+				EBA69B67B8E114E56FCA2E8550EF6BAB /* Pods-YesidFaceEnrollment_Example-frameworks.sh */,
+				B7DBE52EE017DA7E4879397C4D1B4C6A /* Pods-YesidFaceEnrollment_Example-Info.plist */,
+				ADF234A0B80C163606C85B35C842F984 /* Pods-YesidFaceEnrollment_Example-umbrella.h */,
+				FF461639BF37436D552B2D74DF735699 /* Pods-YesidFaceEnrollment_Example.debug.xcconfig */,
+				8C06A3200A8642CE4D66C7A69D688CFC /* Pods-YesidFaceEnrollment_Example.release.xcconfig */,
+			);
+			name = "Pods-YesidFaceEnrollment_Example";
+			path = "Target Support Files/Pods-YesidFaceEnrollment_Example";
+			sourceTree = "<group>";
+		};
+		A4419E0DE4F3304580ED6429B05C3629 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C0DE8D7AB90D230C3FFA4EA635F40F81 /* AVCaptureVideoOrientation.swift */,
+				224EFC200A99F6A1D839808806B1598D /* CameraError.swift */,
+				6E9BAE09FC63222117735E00FE36AC00 /* Color.swift */,
+				D29BDEF85D066928691CA4707F648146 /* FaceEnrollShape.swift */,
+				6134F1B59201A9520DC1B4D8A698D9AF /* UIImage.swift */,
+			);
+			name = Extensions;
+			path = YesidFaceEnrollment/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		CB91671EC3229C99355A1EFF8E6FBA12 /* Pods-YesidFaceEnrollment_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B92948D58DD01F4C01E99E7AF2BEDFEB /* Pods-YesidFaceEnrollment_Tests.modulemap */,
+				C5BF8C6C85B38338502ED53D2CC1C5CB /* Pods-YesidFaceEnrollment_Tests-acknowledgements.markdown */,
+				C61AEB5200E263D4D7C709D2CE912B1A /* Pods-YesidFaceEnrollment_Tests-acknowledgements.plist */,
+				3B3CD16CAAF5A9BDAD8CA868469BCA36 /* Pods-YesidFaceEnrollment_Tests-dummy.m */,
+				5D5FEE203B5F68810E18A8D663C0827F /* Pods-YesidFaceEnrollment_Tests-Info.plist */,
+				F52DAB70EC08524B1DE6B1C6AEE12B18 /* Pods-YesidFaceEnrollment_Tests-umbrella.h */,
+				5899E0EAD45210E57D9DAF3B52012400 /* Pods-YesidFaceEnrollment_Tests.debug.xcconfig */,
+				7D6931DFC883013BA976D71ED28A9C2D /* Pods-YesidFaceEnrollment_Tests.release.xcconfig */,
+			);
+			name = "Pods-YesidFaceEnrollment_Tests";
+			path = "Target Support Files/Pods-YesidFaceEnrollment_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D4A1C601B1D20736C46F09FA354CDE8F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				096C35606D3A1C5355A8EDADBCEECEE8 /* Products */,
+				11016D687C51E86469B66EFC47845E1B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4A1C601B1D20736C46F09FA354CDE8F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FAA3C37E6361C71E616DB199F509122 /* YesidFaceEnrollment */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EBEFAED8896C1571528E4977BD0FB160 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2864C667EB461718EF076A6C082820AE /* YesidFaceEnrollment.modulemap */,
+				B109110DDE8171B5C3B501A0AE044EB5 /* YesidFaceEnrollment-dummy.m */,
+				42F3AD2A556EC9AE6DA84FC0041A9BD8 /* YesidFaceEnrollment-Info.plist */,
+				FAEC138DAE58EF72B7AFB580749034E1 /* YesidFaceEnrollment-prefix.pch */,
+				7DE2455B7713ADFB7CBE33B72323F1DE /* YesidFaceEnrollment-umbrella.h */,
+				B1C7C94F0200163EBAB2BBFB5DC9EAE4 /* YesidFaceEnrollment.debug.xcconfig */,
+				A1F9D0D9BCCFAAEB666525DB6A85F564 /* YesidFaceEnrollment.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YesidFaceEnrollment";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E0F951DE7796AF16DF490A7132E89D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85B17F8FFFB26BADB1CC0DF38887117 /* YesidFaceEnrollment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B9FB711663C01C59C937E4D9BC63DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01D24B4A0C1EE8593BC8B092D692EC9 /* Pods-YesidFaceEnrollment_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF88FBFE4ED39E6D301CB8DF07A31EF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF2AC24031147FB5AD211018404AD17 /* Pods-YesidFaceEnrollment_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24DC5574EF19285388AAF5E67253E329 /* Pods-YesidFaceEnrollment_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D28A304A24658EA54EDCFCF2A03645 /* Build configuration list for PBXNativeTarget "Pods-YesidFaceEnrollment_Example" */;
+			buildPhases = (
+				FF88FBFE4ED39E6D301CB8DF07A31EF9 /* Headers */,
+				011A54F0A921ED83498B72AF8BB0F591 /* Sources */,
+				692FF0C7ED4E0B47EBABE50D0999F396 /* Frameworks */,
+				166EAB945FE49EF958260BB5A1467E69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6A1E21FE5688A6FF61F2A6397776AE /* PBXTargetDependency */,
+			);
+			name = "Pods-YesidFaceEnrollment_Example";
+			productName = Pods_YesidFaceEnrollment_Example;
+			productReference = DDB472DF5EC0816D7945692A76F95DA7 /* Pods-YesidFaceEnrollment_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		D22AC9267FF82E9424FB37F97FEB77C2 /* YesidFaceEnrollment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E39B16DA0720B877DD84E7E050D320 /* Build configuration list for PBXNativeTarget "YesidFaceEnrollment" */;
+			buildPhases = (
+				7E0F951DE7796AF16DF490A7132E89D2 /* Headers */,
+				30E9624CA04A78D202EA7BA59F531434 /* Sources */,
+				97A3B111BB3E1E1CE6F6C7E989DD8865 /* Frameworks */,
+				349B5F400623403D2AFDBD72B897BC36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YesidFaceEnrollment;
+			productName = YesidFaceEnrollment;
+			productReference = C92F35972BD69C2CD8A25BC651639EBA /* YesidFaceEnrollment */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2147B874C6670D16CE93191CFA44C84 /* Pods-YesidFaceEnrollment_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45C7173F18151D435F1CBA1EBC1B7D1 /* Build configuration list for PBXNativeTarget "Pods-YesidFaceEnrollment_Tests" */;
+			buildPhases = (
+				F8B9FB711663C01C59C937E4D9BC63DE /* Headers */,
+				F1A76621E071C4258ED0AEAAAD7855BE /* Sources */,
+				17613A855D783B55B6FCA0876A1C84FA /* Frameworks */,
+				D2C599D06204E6A8A523A6EE5088CA0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80A2C08CD1171C8EDD95A91D9224BF6E /* PBXTargetDependency */,
+			);
+			name = "Pods-YesidFaceEnrollment_Tests";
+			productName = Pods_YesidFaceEnrollment_Tests;
+			productReference = 14EE59E2677DB94AC7CACB903C3A64AB /* Pods-YesidFaceEnrollment_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 096C35606D3A1C5355A8EDADBCEECEE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24DC5574EF19285388AAF5E67253E329 /* Pods-YesidFaceEnrollment_Example */,
+				F2147B874C6670D16CE93191CFA44C84 /* Pods-YesidFaceEnrollment_Tests */,
+				D22AC9267FF82E9424FB37F97FEB77C2 /* YesidFaceEnrollment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		166EAB945FE49EF958260BB5A1467E69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		349B5F400623403D2AFDBD72B897BC36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C599D06204E6A8A523A6EE5088CA0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		011A54F0A921ED83498B72AF8BB0F591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E67CAD8E0ECE03AC48843A0C9C8CFF /* Pods-YesidFaceEnrollment_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E9624CA04A78D202EA7BA59F531434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90CAAE81CB64626826546C4D2C7BC70A /* AVCaptureVideoOrientation.swift in Sources */,
+				FA0126E2695BB4EF1535E0542DC1CF08 /* CameraError.swift in Sources */,
+				E8D980F7543DFD950B69A162312FDDFE /* CameraView.swift in Sources */,
+				12D39CF4590D83EF89F00DD81FA2A75C /* Color.swift in Sources */,
+				16813563D396D95E6D5F91E2713E1788 /* FaceEnrollment.swift in Sources */,
+				9208BC03264A8E5443E00A0577B8CB34 /* FaceEnrollmentCamera.swift in Sources */,
+				5B33ED4FBB927976C27264CE8BC3E979 /* FaceEnrollmentCameraView.swift in Sources */,
+				25D074CAC27385537881F183F9C246FB /* FaceEnrollShape.swift in Sources */,
+				2F7B61ACB4921112469C818F6C5A2AE7 /* FaceMatchResponse.swift in Sources */,
+				663E46AC53AB2775534B60C6D7B34067 /* UIImage.swift in Sources */,
+				A82995EF57CA9B6E5478748F7FE9EC0A /* YesidFaceEnrollment.swift in Sources */,
+				F0B700A807A8FEF5E06EBB1D6A8BD8A1 /* YesidFaceEnrollment-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1A76621E071C4258ED0AEAAAD7855BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56798310A6AA9070A89BF8551313270 /* Pods-YesidFaceEnrollment_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F6A1E21FE5688A6FF61F2A6397776AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YesidFaceEnrollment;
+			target = D22AC9267FF82E9424FB37F97FEB77C2 /* YesidFaceEnrollment */;
+			targetProxy = 86EE7CE630B1C77C74E01F91029ADB6E /* PBXContainerItemProxy */;
+		};
+		80A2C08CD1171C8EDD95A91D9224BF6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YesidFaceEnrollment_Example";
+			target = 24DC5574EF19285388AAF5E67253E329 /* Pods-YesidFaceEnrollment_Example */;
+			targetProxy = A1CB3405194403654E1683AAFE167BFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A786974C4BD57A13CFDF3D368CDEFA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C7C94F0200163EBAB2BBFB5DC9EAE4 /* YesidFaceEnrollment.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YesidFaceEnrollment/YesidFaceEnrollment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YesidFaceEnrollment/YesidFaceEnrollment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YesidFaceEnrollment/YesidFaceEnrollment.modulemap";
+				PRODUCT_MODULE_NAME = YesidFaceEnrollment;
+				PRODUCT_NAME = YesidFaceEnrollment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29B87F0A68BD24671D4D193ABBD7D50A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5899E0EAD45210E57D9DAF3B52012400 /* Pods-YesidFaceEnrollment_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YesidFaceEnrollment_Tests/Pods-YesidFaceEnrollment_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YesidFaceEnrollment_Tests/Pods-YesidFaceEnrollment_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3038EFD581ADBB65BE0C4F47530B1B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF461639BF37436D552B2D74DF735699 /* Pods-YesidFaceEnrollment_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YesidFaceEnrollment_Example/Pods-YesidFaceEnrollment_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YesidFaceEnrollment_Example/Pods-YesidFaceEnrollment_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		509F51B3E9EE2C8E377AD6921A64E895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F9D0D9BCCFAAEB666525DB6A85F564 /* YesidFaceEnrollment.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YesidFaceEnrollment/YesidFaceEnrollment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YesidFaceEnrollment/YesidFaceEnrollment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YesidFaceEnrollment/YesidFaceEnrollment.modulemap";
+				PRODUCT_MODULE_NAME = YesidFaceEnrollment;
+				PRODUCT_NAME = YesidFaceEnrollment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F3CADDD5E9BB4F167BDDA0609B07337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C06A3200A8642CE4D66C7A69D688CFC /* Pods-YesidFaceEnrollment_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YesidFaceEnrollment_Example/Pods-YesidFaceEnrollment_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YesidFaceEnrollment_Example/Pods-YesidFaceEnrollment_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FABC946C776D226EB92B73992DE472FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D6931DFC883013BA976D71ED28A9C2D /* Pods-YesidFaceEnrollment_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YesidFaceEnrollment_Tests/Pods-YesidFaceEnrollment_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YesidFaceEnrollment_Tests/Pods-YesidFaceEnrollment_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02D28A304A24658EA54EDCFCF2A03645 /* Build configuration list for PBXNativeTarget "Pods-YesidFaceEnrollment_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3038EFD581ADBB65BE0C4F47530B1B71 /* Debug */,
+				8F3CADDD5E9BB4F167BDDA0609B07337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05E39B16DA0720B877DD84E7E050D320 /* Build configuration list for PBXNativeTarget "YesidFaceEnrollment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A786974C4BD57A13CFDF3D368CDEFA2 /* Debug */,
+				509F51B3E9EE2C8E377AD6921A64E895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45C7173F18151D435F1CBA1EBC1B7D1 /* Build configuration list for PBXNativeTarget "Pods-YesidFaceEnrollment_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B87F0A68BD24671D4D193ABBD7D50A /* Debug */,
+				FABC946C776D226EB92B73992DE472FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

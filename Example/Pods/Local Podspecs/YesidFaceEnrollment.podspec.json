@@ -1,0 +1,26 @@
+{
+  "name": "YesidFaceEnrollment",
+  "version": "0.1.0",
+  "summary": "Facial enrollment library with liveness detection.",
+  "description": "YesidFaceEnrollment provides a simple and secure way to enroll a user's face by capturing nine angles, including top, top right, right, bottom right, bottom, left, top left, bottom left, using a liveness detection mechanism. This library can be integrated into any iOS app, allowing users to easily enroll their faces and access secure features of the app.",
+  "homepage": "https://github.com/IDTech-Tanzania/YesidFaceEnrollment",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Emmanuel Mtera": "emtera@yesid.io"
+  },
+  "source": {
+    "git": "https://github.com/IDTech-Tanzania/YesidFaceEnrollment.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "source_files": "YesidFaceEnrollment/Classes/**/*",
+  "swift_version": "5.0"
+}
