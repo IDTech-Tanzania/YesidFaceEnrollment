@@ -1,21 +1,11 @@
 //
-//  FaceEnrollShape.swift
-//  yesid
+//  Markers.swift
+//  YesidFaceEnrollment
 //
-//  Created by Aim Group on 28/09/2022.
+//  Created by Emmanuel Mtera on 4/12/23.
 //
 
 import SwiftUI
-import Foundation
-
-struct FaceEnrollMaskShape : Shape {
-    var inset : UIEdgeInsets
-    func path(in rect: CGRect) -> Path {
-        var shape = Rectangle().path(in: rect)
-        shape.addPath(Circle().path(in: CGRect(x: rect.midX - 125, y: rect.midY - 125, width: 250, height: 250)))
-        return shape
-    }
-}
 
 struct Marker: View {
     @State var trim: Double
@@ -41,6 +31,7 @@ struct Marker: View {
         }
     }
 }
+
 
 struct Markers: View {
     @ObservedObject var faceModel: FaceEnrollmentViewModel
@@ -70,27 +61,3 @@ struct Markers: View {
         return directions.firstIndex(of: direction)!
     }
 }
-
-
-struct FaceEnrollmentUI: View {
-    @ObservedObject var faceModel: FaceEnrollmentViewModel
-    var body: some View {
-        return ZStack {
-            GeometryReader { geometry in
-                Color.black.opacity(0.9)
-                    .mask(
-                        FaceEnrollMaskShape(
-                            inset: UIEdgeInsets(top: geometry.size.height,
-                                                left: geometry.size.width,
-                                                bottom: geometry.size.height,
-                                                right: geometry.size.width)
-                        ).fill(style: FillStyle(eoFill: true)).aspectRatio(1, contentMode: .fill)
-                    )
-            }
-            Markers(
-            faceModel: faceModel)
-        }
-    }
-}
-
-

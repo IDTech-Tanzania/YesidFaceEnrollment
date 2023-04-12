@@ -32,7 +32,7 @@ public struct YesidFaceEnrollment: View {
     func FullCameraView() -> some View {
         ZStack(){
             MainCameraView()
-            FaceEnrollmentUI(faceModel: faceEnrollModel)
+            FaceEnrollmentOverlay(faceModel: faceEnrollModel)
         }
         .frame(maxWidth:self.screenWidth,maxHeight: self.screenHeight)
     }

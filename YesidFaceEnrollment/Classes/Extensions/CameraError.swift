@@ -21,7 +21,7 @@ extension CameraError: LocalizedError {
     case .cannotAddOutput:
       return "Cannot add video output to session"
     case .createCaptureInput(let error):
-        return "Creating capture input for camera"
+        return "Creating capture input for camera \(error)"
     case .deniedAuthorization:
       return "Camera access denied"
     case .restrictedAuthorization:
